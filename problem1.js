@@ -29,7 +29,6 @@ export function createFiles() {
     return new Promise((resolve, reject) => {
 
         for (let i = 1; i <= 3; i++) {
-
             path = `jsonFiles/file${i}.json`;
 
             fs.writeFile(path, 'This is a json file', (err) => {

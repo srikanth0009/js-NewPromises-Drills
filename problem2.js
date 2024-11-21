@@ -16,7 +16,7 @@ export function getData() {
                 resolve(data);
             }
         });
-    });
+    })
 }
 
 export function converttoUpperCase(data) {
